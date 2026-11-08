@@ -105,6 +105,7 @@ h3 { margin: 0; font-size: 1rem; font-weight: 700; }
   .pv-title { font-size: 15pt; font-weight: 700; }
   .pv-note { font-size: 9.5pt; margin: 0 0 4mm; }
   .pv-h2 { font-size: 13pt; font-weight: 700; margin: 5mm 0 2mm; break-after: avoid; }
+  .pv-break { break-before: page; margin-top: 0; }
   .pv-h3 { font-size: 11pt; font-weight: 700; margin: 3mm 0 1.5mm; break-after: avoid; }
   .pv-pre { font-size: 9pt; font-weight: 600; margin: 1mm 0; }
   table.pv { width: 100%; border-collapse: collapse; table-layout: fixed; break-inside: avoid; margin-bottom: 2mm; }
@@ -241,7 +242,7 @@ function buildPrint() {
   const top = el('div', 'pv-top'); top.appendChild(el('div', 'pv-title', document.querySelector('h1').textContent));
   pv.appendChild(top);
   DATA.sections.forEach(sec => {
-    pv.appendChild(el('div', 'pv-h2', sec.label));
+    pv.appendChild(el('div', 'pv-h2' + (sec.id === 'enrol' ? ' pv-break' : ''), sec.label));
     if (sec.note) pv.appendChild(el('p', 'pv-note', sec.note));
     sec.groups.forEach(g => {
       if (g.title) pv.appendChild(el('div', 'pv-h3', g.title));
