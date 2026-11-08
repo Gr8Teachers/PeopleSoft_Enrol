@@ -1154,7 +1154,7 @@ function fillText(node, s) { const [a, b] = splitOpts(s); node.textContent = a; 
 
 const langsEl = document.getElementById('langs');
 { const o = document.createElement('option'); o.value = ''; o.textContent = 'Choose a language…'; langsEl.appendChild(o); }
-DATA.langs.forEach(l => {
+[...DATA.langs].sort((x, y) => x.en.localeCompare(y.en)).forEach(l => {
   const o = document.createElement('option'); o.value = l.code; o.textContent = l.en + ' · ' + l.native;
   langsEl.appendChild(o);
 });
