@@ -1,6 +1,6 @@
-# PeopleSoft Enrolment Phrasebook
+# PeopleSoft Enrolment Questions - Translated
 
-A one-page phrasebook for teachers enrolling AMEP / SEE students in PeopleSoft.
+A one-page translation guide for teachers enrolling AMEP / SEE students in PeopleSoft.
 
 It has the questions from the *PeopleSoft Enrolment Teacher Conversation Guide* (the tip boxes and the enrolment question tables) in 13 languages: Simplified Chinese, Korean, Japanese, Farsi, Arabic, Spanish, Thai, Tamil, Vietnamese, Ukrainian, Russian, Nepali and Burmese.
 
