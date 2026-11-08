@@ -7,6 +7,7 @@ It has the questions from the *PeopleSoft Enrolment Teacher Conversation Guide* 
 - Pick the student's language at the top of the page.
 - **Show** fills the screen with the translation so you can turn it to the student.
 - **Copy** copies the translation.
+- **Print this language** prints every question as a table for the selected language (A4, with the language in the top-right corner of each page).
 
 Open `index.html` in a browser, or view it on GitHub Pages.
 
