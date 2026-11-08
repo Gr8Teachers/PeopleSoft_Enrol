@@ -95,6 +95,9 @@ h3 { margin: 0; font-size: 1rem; font-weight: 700; }
 .show .foot { text-align: center; color: var(--muted); font-size: 0.95rem; }
 .printbar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
 .printbar .hint { font-size: 0.85rem; color: var(--muted); }
+.toolbar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+.toolbar .hint { font-size: 0.85rem; color: var(--muted); }
+a.btn { text-decoration: none; display: inline-block; }
 #printView { display: none; }
 @media print {
   @page { size: A4; margin: 20mm 16mm 10mm; }
@@ -128,6 +131,10 @@ h3 { margin: 0; font-size: 1rem; font-weight: 700; }
 <header class="top wrap">
   <h1>PeopleSoft Enrolment Questions - Translated</h1>
   <p class="sub">Questions for teachers enrolling AMEP / SEE students in PeopleSoft. Select the student's language, then read the English and point to the translation, or tap <b>Show</b> to turn the screen to the student.</p>
+  <div class="toolbar">
+    <a class="btn" href="Class-Translation.xlsx" download="Class-Translation.xlsx">Download translation tool</a>
+    <span class="hint">Need a question that isn't here? Download a copy of the Multi-language Translation Tool (Excel), then open it from your Downloads folder.</span>
+  </div>
   <div class="printbar" id="printbar" hidden>
     <button class="btn primary" id="printBtn" type="button">Print this language</button>
     <span class="hint">Prints every question as a table for the language you have selected.</span>
