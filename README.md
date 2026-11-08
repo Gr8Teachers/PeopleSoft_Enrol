@@ -2,7 +2,7 @@
 
 A one-page translation guide for teachers enrolling AMEP / SEE students in PeopleSoft.
 
-It has the questions from the *PeopleSoft Enrolment Teacher Conversation Guide* (the tip boxes and the enrolment question tables) in 20 languages: Simplified Chinese, Korean, Japanese, Farsi, Arabic, Spanish, Thai, Tamil, Vietnamese, Ukrainian, Russian, Nepali, Burmese, Turkish, Indonesian, Punjabi, Dari, Portuguese, Khmer and Mongolian.
+It has the questions from the *PeopleSoft Enrolment Teacher Conversation Guide* (the tip boxes and the enrolment question tables) in 27 languages: Simplified Chinese, Korean, Japanese, Farsi, Arabic, Spanish, Thai, Tamil, Vietnamese, Ukrainian, Russian, Nepali, Burmese, Turkish, Indonesian, Punjabi, Dari, Portuguese, Khmer, Mongolian, Pashto, Urdu, Hindi, Kurdish (Kurmanji), Kurdish (Sorani), Tigrinya and Swahili.
 
 - Pick the student's language at the top of the page.
 - **Show** fills the screen with the translation so you can turn it to the student.
