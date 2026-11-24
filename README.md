@@ -12,3 +12,9 @@ It has the questions from the *PeopleSoft Enrolment Teacher Conversation Guide* 
 Open `index.html` in a browser, or view it on GitHub Pages.
 
 Translations have not yet been checked by native speakers. Please review before use.
+
+## Student guide
+
+`students/index.html` is a student version of the guide, in the same 27 languages plus English. Students choose their language and see what to bring, the questions their teacher will ask, and what happens after enrolment. Each line shows the translation with the English underneath, and a 🔊 button plays the English so students can hear how the teacher will say it.
+
+Link students straight to their language with `?lang=` and a code, for example `students/?lang=ar` or `students/?lang=zh`.
